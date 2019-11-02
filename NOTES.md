@@ -1,29 +1,63 @@
 # Notes
-## Chapter 1
+
+## Definitions
 A definition of DevOps could be the union of people, process and products to enable the continuous delivery of value to the end users/customers. #defintion
 
+## Approaches
 The most important task in a transformation movement is addressing the people within the organisation and change the culture for everybody. The goal is 100% alignment in continuously delivering value to the customer in every possible way. #approach
 
 The process of the company need to delivery fast feedbacks while maintaining a high code quality (e.g. Agile). #approach
 
 Products to help enable the DevOps philosophy are out there. #approach
 
+Aim for a good balance between velocity and safety. #approach
+
+## Lessons learned
 One of the limiting factors is when the rest of the organisation still behaves the traditional way. This only leads to only incremental improvements due the conflicts of culture, goal. #lessonlearned
 
 You can’t copy of company x to ours. This is simply “cargo cult”ing and the values and goals of those companies are different. Approaches like this are a guaranteed way to fail miserably. #lessonlearned
 
 There is no “best practice” there is only better practice than yesterday. #lessonlearned
 
+## Suggestions
 You need to make the work visible of the team to prevent siloization and foster the ability to collaborate. #suggestion
 
 If involved in a heavy emotional discussion remember, when you say those words, those angry words, you can’t unsay them. #behaviour
 
 The business has the rights *what* to do, but not *how* to do it. That’s your job. Don’t ask for permission. #suggestion
 
-Aim for a good balance between velocity and safety. #approach
+## Provoking Thoughts
+There is no silver bullet. Just hard work. And the only one who can do it, is you. #provokingthought
 
 What would mean a list of a production server to you? How long does a rebuild take? Is every configuration in your version control. #provokingthought
 
+Everyone thinks they are doing CI but check the definition in “Continues Delivery book”. #provokingthought
+
+1) merge to trunk daily 2) branches shorter than 3 days 3) less than 3 active branches #provokingthought
+
+If you are not ashamed of your MVP, it is not a MVP. #provokingthought
+
+Disable SSH to achieve true Infrastructure as code embracement. #provokingthought
+
+Before setting up a KPI ask yourself what the team will do differently based on the metric. #provokingthought
+
+Keeping the build pipeline green should be priority #1 for a team, not delivering new features. #provokingthought
+
+Defect to zero is a myth and just generates a culture of distrust, manual handovers and blame. #provokingthought
+
+Mojito Test, all day everyday. #provokingthought
+
+Any strategy that depends on people to change they behaviour will fail. Stop talking about what you care about, talk about what the people want to care about. #provokingthought
+
+Information flows down the organisation easily but takes effort to get up again. #provokingthought
+
+Slow down to a level that the organization can handle. #provokingthought
+
+To get business buy-ins talk the language. Connect your asks to dollars and use more often the word waste. #provokingthought
+
+Don’t expect to get everything right from the start. Patience and experiments are the key. #provokingthought
+
+## Research
 Socratic questioning and the scientific method #research
 
 Socratic questioning, asking instead of “best practices”. #defintion
@@ -57,23 +91,17 @@ Practice and culture will eat just tools for breakfast. A consistently green bui
 
 Continuous Integration (CI), work in small batches and use automated test to detect and reverse changes that introduced a regression error. #defintion
 
-Everyone thinks they are doing CI but check the definition in “Continues Delivery book”. #provokingthought
-
 Strive for short-lived branches (1-2 days). #suggestion
 
 Look into Trunk Based Development. #research
 
 Look into Monorepos #research
 
-1) merge to trunk daily 2) branches shorter than 3 days 3) less than 3 active branches #provokingthought
-
 Don’t try to separate where code is being written and tested due to the danger of “someone else job”. #suggestion
 
 Postmortem example setup could be 1) What happen slot, gather log files, chat discussions and more, at best in a timeline manner 2) Open Discussion, looking for gaps in knowledge, tooling or configuration 3) Remediation items, actionable goals within 30 days and following the SMART concept would be a first idea. #suggestion
 
 Try to cultivate a culture where failures are seen as opportunities to be better. #behaviour
-
-If you are not ashamed of your MVP, it is not a MVP. #provokingthought
 
 Take a value stream analysis to make waste visible. Try to determinate your lead and cycle time. #suggestion
 
@@ -87,12 +115,6 @@ A chance to implement a success DevOps movement have DevOps team, even when ofte
 
 Ops team are often pressured with the urgent stuff to fix and have no time for the important things which require time, focus and creativity. #lessonlearned
 
-Disable SSH to achieve true Infrastructure as code embracement. #provokingthought
-
-Mojito Test, all day everyday. #provokingthought
-
-Any strategy that depends on people to change they behaviour will fail. Stop talking about what you care about, talk about what the people want to care about. #provokingthought
-
 Netflix charter of the tools team is to support the engineering team innovation and velocity. #lessonlearned
 
 Google heavily use on-call playbooks and prepare they engineers with the “Wheel of Misfortune”. #lessonlearned
@@ -103,17 +125,11 @@ Keep visible your metric around reliability and SLA coverage, exposing the cost 
 
 Determine what success looks like and then generate metric that give you the view of how the team is working. Never create metrics out of the blue because you will run into the danger of getting what you measure. #suggestion
 
-Before setting up a KPI ask yourself what the team will do differently based on the metric. #provokingthought
-
 Be aware of vanity metrics, easy to gather and essentially local problems and encourage to cheat. #lessonlearned
-
-Keeping the build pipeline green should be priority #1 for a team, not delivering new features. #provokingthought
 
 Strive for a mission-driven team, which will choice the tools to achieve they goals not a tools-driven team. #suggestion
 
 An anti pattern for a release process to look for are releases at night or the weekend. #behaviour
-
-Defect to zero is a myth and just generates a culture of distrust, manual handovers and blame. #provokingthought
 
 Embrace the cattle not pets thinking, that it is far more easy to destroy something an rebuild it, than manually fix it by hand. #suggestion
 
@@ -127,27 +143,16 @@ The standards you walk by are the standards you accept. Keep on hammering on pro
 
 Good leaders are defined by two things 1) protect they people 2) hold them accountable. #behaviour
 
-Information flows down the organisation easily but takes effort to get up again. #provokingthought
-
-Slow down to a level that the organization can handle. #provokingthought
-
 A resilient team is made of the elements of 1) Autonomy, 2) Mastery, 3) Purpose. See Drive book. #suggestion
 
 Change is inevitable in the software world. We need to live with it and need to come up with solution on the fly to win. #suggestion
 
-To get business buy-ins talk the language. Connect your asks to dollars and use more often the word waste. #provokingthought
-
 Use monitoring reduce the most common errors for customers, this build empathy. #suggestion
-
-Don’t expect to get everything right from the start. Patience and experiments are the key. #provokingthought
 
 Use feature toogles to separate deployment and release. #suggestion
 
 Consistency is more important than perfection. #suggestion
 
-There is no silver bullet. Just hard work. And the only one who can do it, is you. #provokingthought
-
 The second year of transformations are the hardest. Watch out! #suggestion
 
 Don’t get involve in discussions about pro and cons about a tool. There is always a solution but the problems arising with people, process and culture are more challenging. #suggestion
-
