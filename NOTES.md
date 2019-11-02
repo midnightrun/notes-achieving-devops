@@ -75,7 +75,7 @@ Try to cultivate a culture where failures are seen as opportunities to be better
 
 If you are not ashamed of your MVP, it is not a MVP. #provokingthought
 
-Take a value stream analysis to make waste visible. #suggestion
+Take a value stream analysis to make waste visible. Try to determinate your lead and cycle time. #suggestion
 
 Lead time and cycle time. Two metrics to maybe look after. #suggestion
 
@@ -98,3 +98,56 @@ Netflix charter of the tools team is to support the engineering team innovation 
 Google heavily use on-call playbooks and prepare they engineers with the “Wheel of Misfortune”. #lessonlearned
 
 Teams don’t trust each other (dev, ops, management). That could be the source for example that ops prevent developers to access the production environment. This lack of trust results in a not effective communication and collaboration. #behaviour
+
+Keep visible your metric around reliability and SLA coverage, exposing the cost caused by pass-through tickets and long remediation times. #suggestion
+
+Determine what success looks like and then generate metric that give you the view of how the team is working. Never create metrics out of the blue because you will run into the danger of getting what you measure. #suggestion
+
+Before setting up a KPI ask yourself what the team will do differently based on the metric. #provokingthought
+
+Be aware of vanity metrics, easy to gather and essentially local problems and encourage to cheat. #lessonlearned
+
+Keeping the build pipeline green should be priority #1 for a team, not delivering new features. #provokingthought
+
+Strive for a mission-driven team, which will choice the tools to achieve they goals not a tools-driven team. #suggestion
+
+An anti pattern for a release process to look for are releases at night or the weekend. #behaviour
+
+Defect to zero is a myth and just generates a culture of distrust, manual handovers and blame. #provokingthought
+
+Embrace the cattle not pets thinking, that it is far more easy to destroy something an rebuild it, than manually fix it by hand. #suggestion
+
+To find good people provide a customer design problem. Look for technical expertise but also for the approach they are taking. Are they curious? Are they immediately jumping into a solution or are trying to really understand what the customer is asking for? #suggestion
+
+Micro service should be a well discussed decision. They embrace good thing like small teams, learning culture e.g. but also have the downside of wrong service boundaries. #suggestion
+
+Simon Wardleys “Settlers of Catan” with the Pioneers, Settlers and Town planners. All starts with a single spark, one person or team as pioneers, are catch up by settlers which improve those practices and maybe build tools around it. Town Planners finally operationalize. #suggestion
+
+The standards you walk by are the standards you accept. Keep on hammering on problems until they are gone. You are responsible as a professional to eliminate waste one step at a time. #suggestion
+
+Good leaders are defined by two things 1) protect they people 2) hold them accountable. #behaviour
+
+Information flows down the organisation easily but takes effort to get up again. #provokingthought
+
+Slow down to a level that the organization can handle. #provokingthought
+
+A resilient team is made of the elements of 1) Autonomy, 2) Mastery, 3) Purpose. See Drive book. #suggestion
+
+Change is inevitable in the software world. We need to live with it and need to come up with solution on the fly to win. #suggestion
+
+To get business buy-ins talk the language. Connect your asks to dollars and use more often the word waste. #provokingthought
+
+Use monitoring reduce the most common errors for customers, this build empathy. #suggestion
+
+Don’t expect to get everything right from the start. Patience and experiments are the key. #provokingthought
+
+Use feature toogles to separate deployment and release. #suggestion
+
+Consistency is more important than perfection. #suggestion
+
+There is no silver bullet. Just hard work. And the only one who can do it, is you. #provokingthought
+
+The second year of transformations are the hardest. Watch out! #suggestion
+
+Don’t get involve in discussions about pro and cons about a tool. There is always a solution but the problems arising with people, process and culture are more challenging. #suggestion
+
